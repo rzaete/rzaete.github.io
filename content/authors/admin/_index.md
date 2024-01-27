@@ -29,22 +29,19 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Robotics
+  - Applied AI
+  - Simulation and Modeling
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: MS in Computer Science
+      institution: The University of Texas at Arlington
+      year: 2021
+    - course: BS in Computer Engineering
+      institution: Ferdowsi University of Mashhad
+      year: 2018
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -96,29 +93,29 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/rza_ete
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=729HU0gAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/rzaete
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/reza-etemadi/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/RezaEtemadi_resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+As a computer scientist with a passion for AI and machine learning, I have diverse experience across various fields, such as robotics, autonomous vehicles, medical image analysis, and cloud services. I possess a thorough understanding of different AI methods and their practical application in addressing real-world problems. I am dedicated to staying at the forefront of the field and continuously enhancing my skills and knowledge. My strong background in software engineering enables me to devise innovative and efficient solutions to complex challenges. For those interested in delving deeper into my work, I have shared my side projects and papers on my website.
 {style="text-align: justify;"}
