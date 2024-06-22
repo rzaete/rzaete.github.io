@@ -96,7 +96,7 @@ social:
     link: https://twitter.com/rza_ete
     label: Follow me on Twitter
     display:
-      header: true
+      header: false
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=729HU0gAAAAJ&hl=en
@@ -117,5 +117,5 @@ social:
 highlight_name: true
 ---
 
-As a computer scientist with a passion for AI and machine learning, I have diverse experience across various fields, such as robotics, autonomous vehicles, medical image analysis, and cloud services. I possess a thorough understanding of different AI methods and their practical application in addressing real-world problems. I am dedicated to staying at the forefront of the field and continuously enhancing my skills and knowledge. My strong background in software engineering enables me to devise innovative and efficient solutions to complex challenges. For those interested in delving deeper into my work, I have shared my side projects and papers on my website.
+As a computer scientist with a passion for AI and machine learning, I have diverse experience across various fields, such as robotics, autonomous vehicles, brain MRI image analysis, and cloud services. I possess a thorough understanding of different AI methods and their practical application in addressing real-world problems. I am dedicated to staying at the forefront of the field and continuously enhancing my skills and knowledge. My strong background in software engineering enables me to devise innovative and efficient solutions to complex challenges. For those interested in delving deeper into my work, I have shared my side projects and papers on my website.
 {style="text-align: justify;"}
