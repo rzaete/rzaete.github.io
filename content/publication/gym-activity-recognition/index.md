@@ -1,23 +1,26 @@
 ---
-title: 'Learning Hierarchical Traversability Representations for Efficient Multi-Resolution Path Planning'
+title: 'Personalized system for human gym activity recognition using an RGB camera'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Preetham Ganesh
   - admin
-  - Manfred Huber
+  - Chinmaya Basavanahally Venkatesh
+  - Ashwin Ramesh Babu
+  - Maria Kyrarini
 
 # # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2022-10-09T00:00:00Z'
-doi: '10.1109/SMC53654.2022.9945075'
+date: '2020-06-30T00:00:00Z'
+doi: '10.1145/3389189.3392611'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-10-09T00:00:00Z'
+publishDate: '2020-06-30T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,10 +28,10 @@ publishDate: '2022-10-09T00:00:00Z'
 publication_types: ['paper-conference']
 
 # # Publication name and optional abbreviated publication name.
-publication: "*2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC)*"
+publication: "*PETRA '20: Proceedings of the 13th ACM International Conference on PErvasive Technologies Related to Assistive Environments*"
 # publication_short: "*IEEE SMC*"
 
-abstract: Path planning on grid-based obstacle maps is an essential and much-studied problem with applications in robotics and autonomy. Traditionally, in the AI community, heuristic search methods (e.g., based on Dijkstra, A∗, or random trees) are used to solve this problem. This search, however, incurs a high computational cost that grows with the size and resolution of the obstacle grid and has to be mitigated with effective heuristics to allow path planning in real-time. This work introduces a learning framework using a deep neural network with a stackable convolution kernel to establish a hierarchy of directional traversability representations with decreasing resolution that can serve as an efficient heuristic to guide a multi-resolution path planner. This path planner finds paths efficiently, starting on the lowest resolution traversability representation and then refining the path incrementally through the hierarchy until it addresses the original obstacle constraints. We demonstrate the benefits and applicability of this approach on datasets of maps created to represent both indoor and outdoor environments to represent different real-world applications. The conducted experiments show that our method can accelerate path planning by 40% in indoor environments and 65% in outdoor environments compared to the same heuristic search method applied to the original obstacle map, which demonstrates the effectiveness of this method.
+abstract: Human Activity Recognition is one of the most researched topics in the field of computer vision. It is a powerful tool mainly used to aid medical systems, smart homes, surveillance, and many more areas. In this paper, an RGB camera was used to record gym activities such as push-up, squat, plank, forward lunge, and sit-up. Features were extracted from the recorded videos and were fed into classification algorithms such as Support Vector Machines, Decision Tree classifier, K-Nearest Neighbor classifier, and Random Forest classifier. The developed models were evaluated using metrics such as accuracy, balanced accuracy, precision score, recall score, and F1 score. The Random Forest Classifier outperformed all the other attempted methods with an accuracy of 98.98%. A repetition counter was developed, which splits workouts based on local minima analysis, and correctness of the workout was calculated for each skeletal point using dynamic time warping. An interactive android application was built for the user to gain insights on the performed workouts.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -40,17 +43,17 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: Google Scholar
-  url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=729HU0gAAAAJ&citation_for_view=729HU0gAAAAJ:d1gkVwhDpl0C'
+  - name: Google Scholar
+    url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=729HU0gAAAAJ&citation_for_view=729HU0gAAAAJ:u5HHmVD_uO8C'
 
-url_pdf: 'https://par.nsf.gov/servlets/purl/10388106'
+url_pdf: 'https://www.researchgate.net/profile/Ashwin-Ramesh-Babu/publication/342537463_Personalized_system_for_human_gym_activity_recognition_using_an_RGB_camera/links/642a277aa1b72772e44635fd/Personalized-system-for-human-gym-activity-recognition-using-an-RGB-camera.pdf'
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
 # url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-# url_video: 'https://youtube.com'
+url_video: 'https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3389189.3392611&file=a21-ganesh.mp4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
