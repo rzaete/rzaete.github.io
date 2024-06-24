@@ -62,3 +62,10 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+
+cascade:
+  # Configure everything
+  - _target:
+      path: /**
+    share: false
