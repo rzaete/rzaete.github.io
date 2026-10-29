@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personalized system for human gym activity recognition using an RGB camera | Reza Etemadi Idgahi</title>
+  <meta name="author" content="Reza Etemadi Idgahi">
+  <meta name="description" content="An RGB-camera system that classifies gym exercises, counts repetitions, and scores form, with a Random Forest model at 98.98% accuracy.">
+  <meta name="theme-color" content="#1565c0">
+  <link rel="canonical" href="https://rzaete.github.io/publication/gym-activity-recognition/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Personalized system for human gym activity recognition using an RGB camera">
+  <meta property="og:image" content="https://rzaete.github.io/publication/gym-activity-recognition/featured.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    (function () {
+      var theme = localStorage.getItem("theme");
+      var dark = theme === "dark" || (theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+      if (dark) document.documentElement.classList.add("dark");
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Primary">
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#menu"/></svg>
+      </button>
+      <a class="brand" href="/">Reza Etemadi Idgahi</a>
+      <div id="nav-menu" class="nav-links">
+        <a href="/#about">Home</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#publications">Publications</a>
+        <a href="/#contact">Contact</a>
+      </div>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle color theme">
+        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#moon"/></svg>
+        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#sun"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main class="article">
+    <h1>Personalized system for human gym activity recognition using an RGB camera</h1>
+    <p class="byline">Preetham Ganesh, <strong>Reza Etemadi Idgahi</strong>, Chinmaya Basavanahally Venkatesh, Ashwin Ramesh Babu, Maria Kyrarini</p>
+    <p class="date">June, 2020</p>
+    <p class="actions">
+      <a class="btn" href="https://www.researchgate.net/profile/Ashwin-Ramesh-Babu/publication/342537463_Personalized_system_for_human_gym_activity_recognition_using_an_RGB_camera/links/642a277aa1b72772e44635fd/Personalized-system-for-human-gym-activity-recognition-using-an-RGB-camera.pdf" target="_blank" rel="noopener">PDF</a>
+      <button class="btn" type="button" data-cite="/publication/gym-activity-recognition/cite.bib">Cite</button>
+      <a class="btn" href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3389189.3392611&amp;file=a21-ganesh.mp4" target="_blank" rel="noopener">Video</a>
+      <a class="btn" href="https://doi.org/10.1145/3389189.3392611" target="_blank" rel="noopener">DOI</a>
+      <a class="btn" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=729HU0gAAAAJ&amp;citation_for_view=729HU0gAAAAJ:u5HHmVD_uO8C" target="_blank" rel="noopener">Google Scholar</a>
+    </p>
+    <figure class="figure">
+      <img src="/publication/gym-activity-recognition/featured.png" width="1338" height="610" alt="">
+    </figure>
+    <h2 class="abstract">Abstract</h2>
+    <p>Human Activity Recognition is one of the most researched topics in the field of computer vision. It is a powerful tool mainly used to aid medical systems, smart homes, surveillance, and many more areas. In this paper, an RGB camera was used to record gym activities such as push-up, squat, plank, forward lunge, and sit-up. Features were extracted from the recorded videos and were fed into classification algorithms such as Support Vector Machines, Decision Tree classifier, K-Nearest Neighbor classifier, and Random Forest classifier. The developed models were evaluated using metrics such as accuracy, balanced accuracy, precision score, recall score, and F1 score. The Random Forest Classifier outperformed all the other attempted methods with an accuracy of 98.98%. A repetition counter was developed, which splits workouts based on local minima analysis, and correctness of the workout was calculated for each skeletal point using dynamic time warping. An interactive android application was built for the user to gain insights on the performed workouts.</p>
+    <dl class="meta">
+      <div>
+        <dt>Type</dt>
+        <dd>Conference paper</dd>
+      </div>
+      <div>
+        <dt>Publication</dt>
+        <dd><em>PETRA ’20: Proceedings of the 13th ACM International Conference on PErvasive Technologies Related to Assistive Environments</em></dd>
+      </div>
+    </dl>
+    <aside class="author">
+      <a href="/"><img src="/img/avatar.jpg" width="60" height="60" alt=""></a>
+      <div>
+        <p class="author-name"><a href="/">Reza Etemadi Idgahi</a></p>
+        <p class="author-role">Software Engineer</p>
+        <ul class="social">
+          <li><a href="/#contact" aria-label="Email"><svg class="icon" viewBox="0 0 512 512" aria-hidden="true"><use href="/img/icons.svg#mail"/></svg></a></li>
+          <li><a href="https://twitter.com/rza_ete" target="_blank" rel="noopener" aria-label="Twitter"><svg class="icon" viewBox="0 0 512 512" aria-hidden="true"><use href="/img/icons.svg#twitter"/></svg></a></li>
+          <li><a href="https://scholar.google.com/citations?user=729HU0gAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg class="icon" viewBox="0 0 640 512" aria-hidden="true"><use href="/img/icons.svg#cap"/></svg></a></li>
+          <li><a href="https://github.com/rzaete" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon" viewBox="0 0 496 512" aria-hidden="true"><use href="/img/icons.svg#github"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/reza-etemadi/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon" viewBox="0 0 448 512" aria-hidden="true"><use href="/img/icons.svg#linkedin"/></svg></a></li>
+          <li><a href="/uploads/RezaEtemadi_resume.pdf" aria-label="CV"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#cv"/></svg></a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Reza Etemadi Idgahi</p>
+  </footer>
+
+  <dialog id="cite" aria-labelledby="cite-title">
+    <div class="cite-head">
+      <h2 id="cite-title">Cite</h2>
+      <button id="cite-close" class="icon-btn" type="button" aria-label="Close">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#close"/></svg>
+      </button>
+    </div>
+    <pre id="cite-text"></pre>
+    <div class="cite-actions">
+      <button id="cite-copy" class="btn" type="button">Copy</button>
+      <a id="cite-download" class="btn" href="#" download>Download</a>
+    </div>
+  </dialog>
+  <script src="/js/site.js"></script>
+</body>
+</html>

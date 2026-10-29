@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning Hierarchical Traversability Representations for Efficient Multi-Resolution Path Planning | Reza Etemadi Idgahi</title>
+  <meta name="author" content="Reza Etemadi Idgahi">
+  <meta name="description" content="A learning framework that builds a hierarchy of directional traversability representations and uses them as a heuristic for multi-resolution path planning.">
+  <meta name="theme-color" content="#1565c0">
+  <link rel="canonical" href="https://rzaete.github.io/publication/hierarchical-path-planning/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Learning Hierarchical Traversability Representations for Efficient Multi-Resolution Path Planning">
+  <meta property="og:image" content="https://rzaete.github.io/publication/hierarchical-path-planning/featured.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    (function () {
+      var theme = localStorage.getItem("theme");
+      var dark = theme === "dark" || (theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+      if (dark) document.documentElement.classList.add("dark");
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Primary">
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#menu"/></svg>
+      </button>
+      <a class="brand" href="/">Reza Etemadi Idgahi</a>
+      <div id="nav-menu" class="nav-links">
+        <a href="/#about">Home</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#publications">Publications</a>
+        <a href="/#contact">Contact</a>
+      </div>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle color theme">
+        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#moon"/></svg>
+        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#sun"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main class="article">
+    <h1>Learning Hierarchical Traversability Representations for Efficient Multi-Resolution Path Planning</h1>
+    <p class="byline"><strong>Reza Etemadi Idgahi</strong>, Manfred Huber</p>
+    <p class="date">October, 2022</p>
+    <p class="actions">
+      <a class="btn" href="https://par.nsf.gov/servlets/purl/10388106" target="_blank" rel="noopener">PDF</a>
+      <button class="btn" type="button" data-cite="/publication/hierarchical-path-planning/cite.bib">Cite</button>
+      <a class="btn" href="https://doi.org/10.1109/SMC53654.2022.9945075" target="_blank" rel="noopener">DOI</a>
+      <a class="btn" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=729HU0gAAAAJ&amp;citation_for_view=729HU0gAAAAJ:d1gkVwhDpl0C" target="_blank" rel="noopener">Google Scholar</a>
+    </p>
+    <figure class="figure">
+      <img src="/publication/hierarchical-path-planning/featured.jpg" width="4207" height="2207" alt="">
+    </figure>
+    <h2 class="abstract">Abstract</h2>
+    <p>Path planning on grid-based obstacle maps is an essential and much-studied problem with applications in robotics and autonomy. Traditionally, in the AI community, heuristic search methods (e.g., based on Dijkstra, A∗, or random trees) are used to solve this problem. This search, however, incurs a high computational cost that grows with the size and resolution of the obstacle grid and has to be mitigated with effective heuristics to allow path planning in real-time. This work introduces a learning framework using a deep neural network with a stackable convolution kernel to establish a hierarchy of directional traversability representations with decreasing resolution that can serve as an efficient heuristic to guide a multi-resolution path planner. This path planner finds paths efficiently, starting on the lowest resolution traversability representation and then refining the path incrementally through the hierarchy until it addresses the original obstacle constraints. We demonstrate the benefits and applicability of this approach on datasets of maps created to represent both indoor and outdoor environments to represent different real-world applications. The conducted experiments show that our method can accelerate path planning by 40% in indoor environments and 65% in outdoor environments compared to the same heuristic search method applied to the original obstacle map, which demonstrates the effectiveness of this method.</p>
+    <dl class="meta">
+      <div>
+        <dt>Type</dt>
+        <dd>Conference paper</dd>
+      </div>
+      <div>
+        <dt>Publication</dt>
+        <dd><em>2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC)</em></dd>
+      </div>
+    </dl>
+    <aside class="author">
+      <a href="/"><img src="/img/avatar.jpg" width="60" height="60" alt=""></a>
+      <div>
+        <p class="author-name"><a href="/">Reza Etemadi Idgahi</a></p>
+        <p class="author-role">Software Engineer</p>
+        <ul class="social">
+          <li><a href="/#contact" aria-label="Email"><svg class="icon" viewBox="0 0 512 512" aria-hidden="true"><use href="/img/icons.svg#mail"/></svg></a></li>
+          <li><a href="https://twitter.com/rza_ete" target="_blank" rel="noopener" aria-label="Twitter"><svg class="icon" viewBox="0 0 512 512" aria-hidden="true"><use href="/img/icons.svg#twitter"/></svg></a></li>
+          <li><a href="https://scholar.google.com/citations?user=729HU0gAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg class="icon" viewBox="0 0 640 512" aria-hidden="true"><use href="/img/icons.svg#cap"/></svg></a></li>
+          <li><a href="https://github.com/rzaete" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon" viewBox="0 0 496 512" aria-hidden="true"><use href="/img/icons.svg#github"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/reza-etemadi/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon" viewBox="0 0 448 512" aria-hidden="true"><use href="/img/icons.svg#linkedin"/></svg></a></li>
+          <li><a href="/uploads/RezaEtemadi_resume.pdf" aria-label="CV"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#cv"/></svg></a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Reza Etemadi Idgahi</p>
+  </footer>
+
+  <dialog id="cite" aria-labelledby="cite-title">
+    <div class="cite-head">
+      <h2 id="cite-title">Cite</h2>
+      <button id="cite-close" class="icon-btn" type="button" aria-label="Close">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="/img/icons.svg#close"/></svg>
+      </button>
+    </div>
+    <pre id="cite-text"></pre>
+    <div class="cite-actions">
+      <button id="cite-copy" class="btn" type="button">Copy</button>
+      <a id="cite-download" class="btn" href="#" download>Download</a>
+    </div>
+  </dialog>
+  <script src="/js/site.js"></script>
+</body>
+</html>
